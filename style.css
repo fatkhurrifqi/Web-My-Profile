@@ -948,7 +948,7 @@ footer {
   }
 
   .home .content h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-left: 15px;
   }
 
@@ -975,5 +975,9 @@ footer {
   .contact button {
     font-size: 1.6rem;
     font-weight: bold;
+  }
+  /* Footer */
+  footer p {
+    font-size: 1.2rem;
   }
 }
