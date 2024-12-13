@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Provile</title>
+    <!-- Link Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Link Animation AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <header class="header">
+      <h1 class="navbar-logo" data-aos="fade-right" data-aos-duration="1000">
+        Ahmad Fatkhur <span>Rifqi</span>
+      </h1>
+      <nav
+        class="navbar"
+        id="navbar"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skill">Skill</a>
+        <a href="#contact">Contact Me</a>
+      </nav>
+      <a id="hamburger-menu"><i data-feather="align-justify"></i></a>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <main
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+      >
+        <figure>
+          <img
+            data-aos="flip-left"
+            data-aos-duration="3000"
+            src="img/provil.jpg"
+            alt=""
+          />
+        </figure>
+        <div class="content">
+          <h1>Hi, It's <br /><span>Ahmad Fatkhur Rifqi</span></h1>
+          <h3 id="element">
+            I'm a <span class="type-text">Frontend Developer Aamiin</span>
+          </h3>
+          <p>
+            I'm study at SMK Umar Fatah majoring in software development, I'm
+            really enjoy learning about technology development.
+          </p>
+          <div class="icons-sosial">
+            <a href=""><i data-feather="instagram"></i></a>
+            <a href=""><i data-feather="linkedin"></i></a>
+            <a href=""><i data-feather="github"></i></a>
+            <a href=""><i data-feather="youtube"></i></a>
+          </div>
+          <button><a href="#contact">Contact Me</a></button>
+        </div>
+      </main>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <h1 class="judul" data-aos="fade-down" data-aos-duration="1500">
+        About <span>Me</span>
+      </h1>
+      <hr class="hr" data-aos="fade-down" data-aos-duration="1500" />
+      <div class="content" data-aos="fade-down" data-aos-duration="1500">
+        <h3>
+          "Jika aku berhenti, maka itu akhir cerita. Kode berhenti, mimpi
+          terhenti"
+        </h3>
+        <p>
+          Saya seorang siswa dari SMK Umar Fatah Rembang, mengambil jurusan
+          PPLG(Pengembangan Perangkat Lunak dan Gim). Saya mengambil jurusan itu
+          untuk mengetahui mendalam tentang teknologi, pemrograman dan
+          pengembangan perangkat lunak. Karena dunia semakin maju dan teknologi
+          semakin berkembang, saya ingin menjadi bagian dari perkembangan.
+        </p>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section class="fortfolio" id="portfolio">
+      <h1 data-aos="fade-down" data-aos-duration="1500">
+        <span>My</span> Project
+      </h1>
+      <hr class="hr" />
+      <div class="row">
+        <div class="col">
+          <figure
+            data-aos-delay="500"
+            data-aos-duration="5000"
+            data-aos="fade-right"
+          >
+            <img src="img/fortofolio1.png" alt="fortfolio" />
+          </figure>
+        </div>
+        <div class="col">
+          <figure
+            data-aos-delay="1000"
+            data-aos-duration="10000"
+            data-aos="fade-down"
+          >
+            <img src="img/fortofolio2.png" alt="fortfolio" />
+          </figure>
+        </div>
+        <div class="col">
+          <figure
+            data-aos-delay="1500"
+            data-aos-duration="15000"
+            data-aos="fade-left"
+          >
+            <img src="img/fortofolio3.png" alt="fortfolio" />
+          </figure>
+        </div>
+      </div>
+
+      <div
+        class="slider"
+        data-aos-delay="2000"
+        data-aos-duration="20000"
+        data-aos="fade-up"
+      >
+        <div class="slides">
+          <!-- Setiap slide -->
+          <div class="slide">
+            <img src="img/slider1.png" alt="Slide 1" />
+            <figcaption><button>View</button></figcaption>
+          </div>
+          <div class="slide">
+            <img src="img/slider2.png" alt="Slide 2" />
+            <figcaption><button>View</button></figcaption>
+          </div>
+        </div>
+        <!-- Tombol navigasi -->
+        <button class="prev">&laquo; Prev</button>
+        <button class="next">Next &raquo;</button>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Section Skill Start -->
+    <section class="skill">
+      <h1
+        id="skill"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="500"
+        data-aos-offset="0"
+      >
+        My <span>Skill</span>
+      </h1>
+      <hr
+        class="hr"
+        id="skill"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="500"
+        data-aos-offset="0"
+      />
+      <div
+        class="skill-main"
+        id="skill"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="500"
+        data-aos-offset="0"
+      >
+        <div class="skill-left">
+          <h2><span>Technical</span> Skill</h2>
+          <div class="skill-bar">
+            <div class="info">
+              <p>HTML</p>
+              <p>72%</p>
+            </div>
+            <div class="bar">
+              <span class="html"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>CSS</p>
+              <p>72%</p>
+            </div>
+            <div class="bar">
+              <span class="css"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>Java Script</p>
+              <p>72%</p>
+            </div>
+            <div class="bar">
+              <span class="javascript"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>PHP</p>
+              <p>72%</p>
+            </div>
+            <div class="bar">
+              <span class="php"></span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-right">
+          <h2><span>proffesional</span> Skill</h2>
+          <div class="professional">
+            <div class="circle">
+              <div class="progress-circle" style="--value: 90">
+                <span>90%</span>
+              </div>
+              <div class="text">Creativity</div>
+            </div>
+
+            <div class="circle">
+              <div class="progress-circle" style="--value: 70">
+                <span>70%</span>
+              </div>
+              <div class="text">Comunication</div>
+            </div>
+
+            <div class="circle">
+              <div class="progress-circle" style="--value: 75">
+                <span>75%</span>
+              </div>
+              <div class="text">Problem</div>
+            </div>
+
+            <div class="circle">
+              <div class="progress-circle" style="--value: 80">
+                <span>80%</span>
+              </div>
+              <div class="text">Teamword</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Skill End -->
+
+    <!-- Section Contact Start -->
+    <section class="contact" id="contact">
+      <h1
+        id="skill"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+      >
+        <span>Kontak</span> Kami
+      </h1>
+      <hr
+        id="skill"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        class="hr"
+      />
+      <div
+        id="skill"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        class="contact-form"
+      >
+        <form action="" method="">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" />
+            <i data-feather="user" id="icon"></i>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" />
+            <i data-feather="mail" id="icon"></i>
+          </div>
+          <div class="form-group">
+            <input type="number" placeholder="Phone Number" />
+            <i data-feather="phone" id="icon"></i>
+          </div>
+          <textarea
+            rows="6"
+            name="pesan"
+            id="pesan"
+            placeholder="Your Messagae"
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- Section Contact End -->
+
+    <!-- Footer Start -->
+    <footer id="skill">
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+      >
+        My Profile <b>&#64;Ahmad Fatkhur Rifqi</b>, Welcome Guys🙌
+      </p>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Link Animation AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Link JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
